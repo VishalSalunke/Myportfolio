@@ -3,7 +3,7 @@ import layers from "../img/layers.png";
 import cogwheel from "../img/cogwheel.png";
 import pen from "../img/pen.png";
 import browser from "../img/browser.png";
-import myImage from "../img/myImage.png";
+import myImage from "../img/vishalSalunke.jpg";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {
@@ -21,14 +21,14 @@ export default class About extends React.Component {
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
 						<img src={layers} alt=""/>
-						<h4>Responsive</h4>
+						<h4>Full Stack Web Development</h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
 						<img src={pen} alt=""/>
-						<h4>Design</h4>
+						<h4>Data Structure</h4>
 					</div>
 					<div
 						className={
@@ -53,14 +53,14 @@ export default class About extends React.Component {
 							src={myImage}
 							alt=""
 							style={{
-								borderRadius: 50 + "%",
-								height: 250 + "px",
-								width: 250 + "px"
+								borderRadius: 30 + "%",
+								height: 300 + "px",
+								width: 300 + "px"
 							}}
 						/>
 						<p className={"mytext pt-3 " + this.props.fadeIn}>
 							I love to transform ideas into reality using code. I
-							am passionate about using Javascript and animations
+							am passionate about using Javascript and cloud computing
 							to create awesome user experiences.
 						</p>
 					</div>
@@ -76,7 +76,7 @@ export default class About extends React.Component {
 								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								HTML5
+								ReactJS
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -86,7 +86,7 @@ export default class About extends React.Component {
 								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								CSS3
+								NodeJs
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -106,7 +106,37 @@ export default class About extends React.Component {
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								PHP
+								HTML
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-80-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								CSS
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 60 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								AngularJS
+							</div>
+						</div>
+						<div className="progress mb-3">
+							<div
+								className="progress-bar fill-60-bar"
+								role="progressbar"
+								style={{ width: 50 + "%" }}
+								aria-valuemin="0"
+								aria-valuemax="100">
+								AWS
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -116,7 +146,7 @@ export default class About extends React.Component {
 								style={{ width: 80 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								ReactJS
+								API
 							</div>
 						</div>
 						<div className="progress mb-3">
@@ -126,37 +156,7 @@ export default class About extends React.Component {
 								style={{ width: 60 + "%" }}
 								aria-valuemin="0"
 								aria-valuemax="100">
-								NodeJs
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								SASS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-80-bar"
-								role="progressbar"
-								style={{ width: 80 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								VanillaJS
-							</div>
-						</div>
-						<div className="progress mb-3">
-							<div
-								className="progress-bar fill-60-bar"
-								role="progressbar"
-								style={{ width: 60 + "%" }}
-								aria-valuemin="0"
-								aria-valuemax="100">
-								JQuery
+								MongoDB
 							</div>
 						</div>
 					</div>

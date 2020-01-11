@@ -89,13 +89,13 @@ class Navbar extends React.Component {
 									className="btn-style nav-item nav-link">
 									About
 								</a>
-								<a
+								{/*<a
 									onClick={() => {
 										this.scrolling(this.projects);
 									}}
 									className="btn-style nav-item nav-link">
 									Projects
-								</a>
+								</a>*/}
 								<a
 									onClick={() => {
 										this.scrolling(this.contact);
@@ -117,12 +117,12 @@ class Navbar extends React.Component {
 					fadeIn={"wow fadeIn"}
 					tada={"wow fadeIn"}
 				/>
-				<Projects
+				{/*<Projects
 					ref={this.projects}
 					id="my-projects"
 					fadeInRight={"wow fadeInRight"}
 					fadeIn={"wow fadeIn"}
-				/>
+				/>*/}
 				<Contact
 					ref={this.contact}
 					id="my-contact"

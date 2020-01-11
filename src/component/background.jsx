@@ -16,7 +16,7 @@ export default class Background extends React.Component {
 				<div id="stars3" />
 				<div className="top-container flex">
 					<h1>
-						Hello, I&apos;m Frank Izquierdo.
+						Hello, I&apos;m Vishal Salunke.
 						<br />
 						I&apos;m a Full Stack Web Developer.
 					</h1>
@@ -33,7 +33,7 @@ export default class Background extends React.Component {
 								behavior: "smooth"
 							});
 						}}>
-						View my work
+						View my profile
 					</button>
 				</div>
 			</div>
