@@ -62,6 +62,7 @@ export default class About extends React.Component {
 							I love to transform ideas into reality using code. I
 							am passionate about using Javascript and cloud computing
 							to create awesome user experiences.
+							 <a href="/vishal_salunke_2020.pdf" target="_blank" download>Download resume</a>
 						</p>
 					</div>
 					<div
